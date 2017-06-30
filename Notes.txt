@@ -1,0 +1,12 @@
+Chapter 8 / Structures.
+
+//1. Memory and Structures
+Code {
+	struct date {
+		int day;
+		int month;
+		int year;
+	};
+	struct date today;
+
+The first statement inside main() defines the structure called date to consist of three integer members called month, day, and year. In the second statement, the variable today is declared to be of type struct date. The first statement simply defines what a date structure looks like to the C compiler and causes no storage to be reserved inside the computer. The second statement declares a variable to be of type struct date and, therefore, does cause memory to be reserved for storing the three integer values of the variable today. Be certain you understand the difference between defining a structure and declaring variables of the particular structure type.
